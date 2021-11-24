@@ -3,18 +3,18 @@
     "name": "GinkoBus application",
     "icons": [
       {
-        "src": "/icons/maskable_icon.png",
+        "src": "/pwa/icons/maskable_icon.png",
         "type": "image/png",
         "sizes": "512x512",
         "purpose": "maskable"
       },
       {
-        "src": "/icons/icon-192.png",
+        "src": "/pwa/icons/icon-192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/icons/icon-512.png",
+        "src": "/pwa/icons/icon-512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
