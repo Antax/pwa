@@ -23,11 +23,13 @@ self.addEventListener('install', (e) => {
         const cache = await caches.open(CACHE_NAME);
         console.log('[Service Worker] Caching all: app shell and content');
         await cache.addAll(contentToCache);
+        console.log('a');
     })());
 });
 
 self.addEventListener('fetch', (e) => {
     e.respondWith((async () => {
+        console.log('b');
       const r = await caches.match(e.request);
       console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
       if (r) { return r; }
