@@ -28,8 +28,15 @@
     <!-- application scripts -->
     <script src="app.js" defer></script>
 
-    <!-- manifeste-->
+    <!-- manifeste -->
     <link rel="manifest" href="manifest.json">
+
+    <!-- service worker -->
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./serviceWorker.js');
+        };
+    </script>
 
 </head>
 
