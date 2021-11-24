@@ -19,7 +19,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "index.html",
+    "start_url": "https://antax.github.io/pwa/",
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": "/",
