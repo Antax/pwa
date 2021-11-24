@@ -3,23 +3,23 @@
     "name": "GinkoBus application",
     "icons": [
       {
-        "src": "/pwa/icons/maskable_icon.png",
+        "src": "./icons/maskable_icon.png",
         "type": "image/png",
-        "sizes": "512x512",
+        "sizes": "274x274",
         "purpose": "maskable"
       },
       {
-        "src": "/pwa/icons/icon-192.png",
+        "src": "./icons/icon-192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/pwa/icons/icon-512.png",
+        "src": "./icons/icon-512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
     ],
-    "start_url": "https://antax.github.io/pwa/",
+    "start_url": "index.html",
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": "/",
